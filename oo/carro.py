@@ -104,4 +104,4 @@ class Motor:
         self.velocidade += 1
 
     def frear(self):
-        self.
+        self.velocidade -= 2
