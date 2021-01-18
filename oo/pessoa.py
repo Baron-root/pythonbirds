@@ -10,7 +10,7 @@ class Pessoa:
         return f'Olá {id(self)}'
 
     @staticmethod
-    def metodo_estatico ():
+    def metodo_estatico():
         return 42
 
     @classmethod
