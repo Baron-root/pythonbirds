@@ -52,7 +52,7 @@ class Fase():
 
         :param porcos:
         """
-        self._porcos
+        self._porcos.extend(porcos)
         pass
 
     def adicionar_passaro(self, *passaros):
@@ -61,6 +61,7 @@ class Fase():
 
         :param passaros:
         """
+        self._passaros.extend(passaros)
         pass
 
     def status(self):
